@@ -30,7 +30,7 @@ using AutoMapper;
                     _dbContext.SaveChanges();
                     return true;
                         }
-                    catch (Exception ex)
+                    catch (Exception)
                     {
                         return false;
                     }
